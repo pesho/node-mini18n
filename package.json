@@ -1,0 +1,27 @@
+{
+  "name": "mini18n",
+  "version": "0.0.0",
+  "description": "Minimalistic internationalization library for Node.js",
+  "main": "mini18n.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pesho/node-mini18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "l10n",
+    "locale",
+    "localization",
+    "multilingual",
+    "translation"
+  ],
+  "author": "Peter Petrov (https://github.com/pesho)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pesho/node-mini18n/issues"
+  }
+}
