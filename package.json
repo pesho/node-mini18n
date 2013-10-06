@@ -1,6 +1,6 @@
 {
   "name": "mini18n",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Minimalistic internationalization library for Node.js",
   "main": "mini18n.js",
   "scripts": {

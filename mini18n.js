@@ -5,11 +5,12 @@
  */
 
 var fs = require('fs'),
-    util = require('util');
+    util = require('util'),
+    singleton = {};
 
 
 var i18n = module.exports = function i18n(options) {
-    var self = this;
+    var self = (this.global || this.window) ? singleton : this; // Don't pollute global namespace when invoked without 'new'
     
     options = self.options =  options || {};
     if (undefined === options.devMode)          options.devMode = (process.env.NODE_ENV == "development");
